@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div > p {
+    text-align: center;
+    font-style: italic;
+}
+
+.kocka{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    position: relative;
+    animation-name: kvadrat;
+    animation-duration: 8s;
+    animation-iteration-count: 4;
+    top: 200px;
+    left: 400px;
+}
+
+@keyframes kvadrat{
+    0%{
+        background-color: blanchedalmond;
+        top: 200px;
+        left: 400px;
+    }
+    8.33%{
+        background-color: purple;
+        top: 200px;
+        left: 600px;
+    }
+    16.66%{
+        background-color: papayawhip;
+        top: 0px;
+        left: 600px;
+    }
+    25%{
+        background-color: palevioletred;
+        top: 0px;
+        left: 800px;
+    }
+    33.33%{
+        background-color: plum;
+        top: 200px;
+        left: 800px;
+    }
+    41.66%{
+        background-color: pink;
+        top: 200px;
+        left: 1000px;
+    }
+    50%{
+        background-color: papayawhip;
+        top: 400px;
+        left: 1000px;
+    }
+    58.33%{
+        background-color: rebeccapurple;
+        top: 400px;
+        left: 800px;
+    }
+    66.66%{
+        background-color: bisque;
+        top: 600px;
+        left: 800px;
+    }
+    75%{
+        background-color: purple;
+        top: 600px;
+        left: 600px;
+    }
+    83.33%{
+        background-color: plum;
+        top: 400px;
+        left: 600px;
+    }
+    91.67%{
+        background-color: papayawhip;
+        top: 400px;
+        left: 400px;
+    }
+    100%{
+        background-color: pink;
+        top: 200px;
+        left: 400px;
+    }
+}
